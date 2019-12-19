@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("https://images.wallpaperscraft.com/image/winter_snow_road_traces_bushes_trees_snowdrifts_clouds_sky_clear_47208_1280x720.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+header input{
+    float: right;
+    margin-right: 10px;
+    margin-top: -28px;
+}
+
+#city_value, #button1, #button2 {
+    padding: 5px 10px;
+    border: 2px solid lightblue;
+    border-radius: 7px;
+}
+header h2{
+    color: white;
+    padding-top: 10px;
+    padding-left: 5px;
+    
+}
+#currentDate {
+ 
+  font-size: 200%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  
+}
+ 
+#current_weather {
+    color: white;
+    border-radius: 10px;
+    border-color: lightblue;
+    box-shadow: 1px 1px 5px lightblue;
+    margin-top: 20px;
+    padding: 50px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size:20px;
+}
+#current_weather h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#main_info{
+    float: left;
+}
+.more_info{
+    float: right;
+}
+
+#button2{
+    margin-top: 50px;
+    padding: 10px;
+
+}
+table{
+    
+    margin-left: auto;
+    margin-right: auto;   
+}
+table, th, td {
+    border: 1px solid white;
+    border-radius: 7px;
+    padding-right: 2px;
+    padding-left:2px;
+}
+#nextFiveDays{
+    color: white;
+    margin-top: 20px;
+
+    text-align: center;
+    font-size: 30px;
+}
+#forecastWeather {
+    color: white;
+    text-align: center;
+    box-shadow: 1px 1px 5px lightblue;
+    background-color: rgba(255, 255, 255, 0.1);
+    width:50%;
+    border-radius: 9px;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}

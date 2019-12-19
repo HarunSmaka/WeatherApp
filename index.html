@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.4.1.min.js"></script>
+
+    <script src="script.js"></script>
+
+    <title>Weather app</title>
+</head>
+<body>
+    
+        <header>
+            <h2>Weather App</h2>
+            
+            <input type="submit" id='button1' value="Find">
+            <input type="text" id ="city_value">
+            
+            
+        </header>
+        <div class ="main">
+            <div id="current_weather">
+
+                <div id="main_info">
+                    <span id="currentDate"></span>
+                    <h2 id="city"> </h2>
+                    <h3 id='temperature'></h3>
+                    <h3 id='weather'></h3>
+                    <img src="" id="icon">
+                </div>
+                <div class="more_info">
+                    <p id="pressure" class="data">  Pressure:  </p>
+                    <p id="humidity" class="data">  Humidity:  </p>
+                    <p id="min_temp" class="data">  Min temperature:  </p>
+                    <p id="max_temp" class="data">  Max temperature:  </p>
+                    <p id="wind_speed" class="data">  Wind Speed:  </p>
+                    <p id="wind_direction" class="data">Wind Direction:</p>
+
+      
+                    <input type="submit" id="button2" value="See next 5 days">
+                    
+                </div>
+                
+            </div>
+        </div>
+
+    <section class="forecast">
+        <div id="nextFiveDays"></div>
+        <div id="forecastWeather">
+        </div>
+    </section>
+
+
+
+
+
+
+
+</body>
+</html>
